@@ -1,10 +1,8 @@
 package org.launchcode.codingevents.models;
 
-import org.dom4j.tree.AbstractEntity;
-
-import javax.persistence.*;
-import javax.validation.constraints.*;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import javax.persistence.Entity;
+import javax.validation.constraints.NotNull;
 
 
 @Entity
